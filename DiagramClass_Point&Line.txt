@@ -1,0 +1,58 @@
+Point - Line
+================================
+	Point
+-x:int=0
+-y:int=0
+================================
++Point()
++Point(x:int, y:int)
++getX():int
++setX(x:int):void
++getY():int
++setY(y:int):void
++toString():String
++getXY():int[2]
++setXY(x:int, y:int):void
++distance(x:int, y:int):double
++distance(another:Point):double
++distance():double
+================================
+
+
+
+
+
+====================================
+	Line
+====================================
+-begin:Point
+-end:Point
+====================================
++Line(x1:int, y1:int, x2:int, y2:int)
++Line(begin:Point, end:Point)
++getBegin():Point
++setBegin(begin:Point):void
++getEnd():Point
++setEnd(end:Point):void
++getBeginX():int
++setBeginX(x:int):void
++getBeginY(y:int):void
++getBeginXY():int[2]
++setBeginXY(x:int, y:int):void
++getEndX():int
++setEndX(x:int):void
++getEndY():int
++setEndY(y:int):void
++getEndXY():int[]
++setEndXY(x:int, y:int):void
++toStrng():String  --------------------Line[begin=(x1, y1), end=(x2, y2)]
++getLength():double
+=============================================================================
+
+
+
+
+
+
+
+

@@ -1,0 +1,62 @@
+================================================	
+		AUTHOR
+================================================
+-name=String
+-email=String
+-gender=char
+=================================================
++Author(name:String, email:String, gender:char)
++getName():String
++getEmail():String
++getGender():String
++setEmail(email:String):void
++toString():String
+=================================================
+
+
+=========================================================
+	BOOK						=
+=========================================================
+-name=String						=
+-author=Author						=
+-price=Double						=
+-qty=int						=
+=========================================================
++Book(name:String, author:Author, price:double, qty:int)
++getName():String
++getAuthor():author
++getPrice():double
++setPrice(price:double):void
++getQty():Int
++setQTY(qty int):void
++toString():String
+=========================================================
+
+book name by author name(gender) at email
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
