@@ -1,0 +1,19 @@
+    			     REKENINGNASABAH
+---------------------------------------------------------------------
+ -noRek 	: String				         
+ -nmNasabah 	: String				            
+ -saldo		: double    				            
+---------------------------------------------------------------------
+ +RekeningNasabah()						    
+ +RekeningNasabah(noRek : String, nmNasabah : String, double : saldo)
+ +getNoRek() : String						    
+ +getNmNasabah() : String						    
+ +getSaldo() : double						    
+ +setNoRek() : void						    
+ +setNmNasabah() : void						    
+ +setSaldo() : void						    
+ +deposit(jumlah : double) : void				           
+ +withdraw(jumlah : double) : void				    
+ +TampilkanInfo() : void						    
+---------------------------------------------------------------------
+
